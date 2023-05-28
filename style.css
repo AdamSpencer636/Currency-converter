@@ -1,0 +1,116 @@
+body{
+    background: rgb(87,77,255);
+    background: linear-gradient(145deg, rgba(87,77,255,1) 0%, rgba(84,41,218,1) 39%, rgba(255,0,226,1) 100%);
+}
+
+header{
+    width: 20vp;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+main{
+    width: 20vp;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+/* Currencies */
+#fromCurrency{
+    margin-left: 5px;
+}
+#toCurrency{
+    margin-right: 5px;
+}
+
+/* Emojis */
+#moneyEmoji{
+    margin-right: 15px;
+}
+
+
+/* Input */
+
+.input {
+    font-weight: 500;
+    font-size: 1.5vw;
+    color: #fff;
+    background-color: rgb(28,28,30);
+    box-shadow: 0 0 .4vw rgba(0,0,0,0.5), 0 0 0 .15vw transparent;
+    border-radius: 0.4vw;
+    border: none;
+    outline: none;
+    padding: 0.4vw;
+    max-width: 190px;
+    transition: .4s;
+    height: 40px;
+  }
+  
+  .input:hover {
+    box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);
+  }
+  
+  .input:focus {
+    box-shadow: 0 0 0 .15vw skyblue;
+  }
+
+
+
+/* Button */
+
+#button {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+   }
+   
+   #button:hover,
+   #button:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+   }
+   
+   #button:hover {
+    transform: translateY(-1px);
+   }
+   
+   #button:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+   }
+
+   /* Result */
+   result{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+   }

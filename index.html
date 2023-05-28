@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Curreny Converter</title>
+  </head>
+  <body>
+    <header>
+      <h1>Currency Converter</h1>
+    </header>
+    <main>
+      <form>
+        <input type="number" name="My_Currency" id="Old_Currency" class="input" value="0"/>
+        <select name="fromCurrency" id="fromCurrency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
+          <option value="CHF">CHF</option>
+          <option value="AUD">AUD</option>
+          <option value="CAD">CAD</option>
+          <option value="NZD">NZD</option>
+        </select>
+        <span id="rightArrowEmoji">&#10145;&#65039;</span>
+        <select name="toCurrency" id="toCurrency">
+          <option value="EUR">EUR</option>
+          <option value="USD">USD</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
+          <option value="CHF">CHF</option>
+          <option value="AUD">AUD</option>
+          <option value="CAD">CAD</option>
+          <option value="NZD">NZD</option>
+        </select>
+        <input type="button" value="Convert" id="button" />
+      </form>
+    </main>
+    <result>
+      <h3>Converted Amount is: <span id="Emoji1"></span><span id="Output"></span><span id="Emoji2"></span></h3>
+    </result>
+  </body>
+  <script nonce="rAnd0m" src="script.js"></script>
+</html>
