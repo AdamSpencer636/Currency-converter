@@ -19,7 +19,7 @@ async function fetchData () {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '61f499a172msh92b2f75f99db9b8p103f59jsn0eabeb279269',
+            'X-RapidAPI-Key': '[Secret]',
             'X-RapidAPI-Host': 'currency-converter-by-api-ninjas.p.rapidapi.com'
         }
     };
