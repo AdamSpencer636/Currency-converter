@@ -15,5 +15,5 @@ Javascript, HTML, CSS
 
 ## Installation
 
-To install this extension follow **This Link** to the Chrom Store (Pending)
+To install this extension follow **This Link** to the Chrome Store (Pending)
     
